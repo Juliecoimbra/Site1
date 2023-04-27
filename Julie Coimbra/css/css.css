@@ -1,0 +1,550 @@
+body {background-color: #ffffff;}
+
+.logo{position:absolute; left: 50px; top: 0%;}
+
+nav{background-color: #F29EAA; 
+    position:absolute;
+    width: 100%;
+    text-align: right;
+    height: 110px;
+top: 0px;}
+
+    nav a{color: #ffffff; font-family: 'balivia'; text-decoration: none; margin: 25px; position: relative; top: 35px; font-size: 25px;}
+    a{position: relative; margin: 25px;}
+
+    nav a{transition: all 1s;cursor: pointer;}
+nav a:hover{background-color: #ffffff; border-radius: 80px; color:#F29EAA;}
+
+
+.EU{width: 350px; border: 15px solid #F29EAA;
+    position: relative; top: -80px; left: 60%;}
+
+.INICIO{position: relative; top: 150px;background-color: #F29EAA; width: 1510px;}
+    
+.botao{background-color: #F29EAA; text-align: center; top:400px;}
+.botao2{background-color: #F29EAA; text-align: center; margin-top:910px;}
+
+.ICONE1{width: 20px;}
+
+
+
+h2{text-align: center; font-family:'balivia'; color: #ffffff; background-color: #F29EAA; font-size: 30px;}
+
+
+h1{text-align: center; font-family: 'Mount Hils'; color: #F29EAA; font-size: 50px; top: 100px;position: relative;}
+
+h3{width: 1500px; font-family: 'balivia'; line-height: 30px;position: relative;top: 260px; background-color: #F29EAA;color: #ffffff; font-size: 25px;}
+
+h4{font-size: 18px; font-family: 'balivia'; color: #672121;}
+h5{font-family: 'balivia'; color: #774242; font-size: 20px;}
+
+
+p{text-align: center; font-family: 'balivia'; color: #606060; font-size: 20px;position: relative;top: 60px;}
+
+
+.video1{position: absolute;left: 460px; top: 870px;}
+.legendafoto1{left: 308px ; font-family: 'balivia'; color: #606060; font-size: 20px;position: absolute;top: 1220px; width: 900px;}
+
+.video2{position: absolute;left: 460px; top: 1300px;}
+.legendafoto2{left:365px ; font-family: 'balivia'; color: #606060; font-size: 20px;position: absolute;top: 1650px; width: 800px;}
+
+@font-face{ 
+    font-family: 'balivia'; 
+    src: url(../fonte/Balivia.ttf);}
+
+    @font-face{ 
+        font-family: 'Mount Hils'; 
+        src: url(../fonte/Mount\ Hills.otf);}
+
+        .caixaImg {
+            position: relative;
+            width: relative;
+            vertical-align: middle;}
+        
+        .imagem {
+        
+            width: 600px;
+            height: relative;
+            margin-top: 20px;
+            margin-left: 50px;}
+        
+
+        .sobreposicao {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0;
+            transition: 2s ease;
+            background-color: #F29EAA;
+            width: 600px;
+            margin-top: 20px;
+            margin-left: 50px;}
+
+            .sobreposicao1 {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                opacity: 0;
+                transition: 2s ease;
+                background-color: #F29EAA;
+                width: 300px;
+                margin-top: 20px;
+                margin-left: 50px;}
+            
+        .texto {
+                color: white;
+                font-size: 25px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: middle;
+                display: inline-block;
+            text-align: center;
+        font-family: 'Balivia';}
+                
+         .caixaImg:hover .sobreposicao {opacity: 2;}
+         .caixaImg:hover .sobreposicao1 {opacity: 2;}
+
+         
+
+        .cadastre{font-family: 'balivia'; font-size: 25px;color: #F29EAA; position: relative; right: -800px; margin-top: 150px;}
+
+        
+
+        .divisoria{position: relative;height: 280px; top: -230px; right: 60px;}
+        .redes{color: #F29EAA;top: -515px; font-size: 25px;right: 970px;}
+
+        .arrobainsta{top: -620px; right: 930px;}
+.arrobaface{top: -570px; right: 930px;}
+.arrobabehance{top: -670px; right: 930px;}
+
+        .face{top: -515px; right: 350px;}
+        .insta{top: -560px; right: 350px;}
+        .behance{top: -610px; right: 350px;}
+
+        .botaocadastro{position:relative;margin-top: -10px;}
+        
+        .iframe{position: center;}
+
+        /* testes de sobreposição */
+
+        .caixaImg1 {
+            position: absolute; top: 350px; left: 700px;
+            width: relative;
+            vertical-align: middle;}
+
+        .sobreposicao1 {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0;
+            transition: 2s ease;
+            background-color: #F29EAA;
+            width: 600px;
+            margin-top: 20px;
+            margin-left: 50px;}
+
+        .texto1 {
+            color: white;
+            font-size: 25px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: middle;
+            display: inline-block;
+        text-align: center;
+    font-family: 'Balivia';}
+
+    .caixaImg1:hover .sobreposicao1 {opacity: 2;}
+    .caixaImg1:hover .sobreposicao1 {opacity: 2;}
+
+
+/*imagem2*/
+
+    .caixaImg2 {
+        position: relative; left: 400px;
+        width: relative;
+        vertical-align: middle;}
+    
+    .imagem2 {
+    
+        width: 600px;
+        height: relative;
+        margin-top: 20px;
+        margin-left: 50px;}
+      
+
+    .sobreposicao2 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: 2s ease;
+        background-color: #F29EAA;
+        width: 600px;
+        margin-top: 20px;
+        margin-left: 50px;}
+
+        
+    .texto2 {
+            color: white;
+            font-size: 25px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: middle;
+            display: inline-block;
+        text-align: center;
+    font-family: 'Balivia';}
+            
+     .caixaImg2:hover .sobreposicao2 {opacity: 2;}
+     .caixaImg2:hover .sobreposicao2 {opacity: 2;}
+
+     /*imagem3*/
+
+    .caixaImg3 {
+        position: relative; left: 400px;
+        width: relative;
+        vertical-align: middle;}
+    
+    .imagem3 {
+    
+        width: 600px;
+        height: relative;
+        margin-top: 20px;
+        margin-left: 50px;}
+    
+
+    .sobreposicao3 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: 2s ease;
+        background-color: #F29EAA;
+        width: 600px;
+        margin-top: 20px;
+        margin-left: 50px;}
+
+        
+    .texto3 {
+            color: white;
+            font-size: 25px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: middle;
+            display: inline-block;
+        text-align: center;
+    font-family: 'Balivia';}
+            
+     .caixaImg3:hover .sobreposicao3 {opacity: 2;}
+     .caixaImg3:hover .sobreposicao3 {opacity: 2;}
+
+     /*imagem4*/
+
+     .caixaImg4 {
+        position: absolute; top: 1800px; left: 700px;
+        width: relative;
+        vertical-align: middle;}
+
+    .sobreposicao4 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: 2s ease;
+        background-color: #F29EAA;
+        width: 600px;
+        margin-top: 20px;
+        margin-left: 50px;}
+
+    .texto4 {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: middle;
+        display: inline-block;
+    text-align: center;
+font-family: 'Balivia';}
+
+.caixaImg4:hover .sobreposicao4 {opacity: 2;}
+.caixaImg4:hover .sobreposicao4 {opacity: 2;}
+
+ /*imagem5*/
+
+ .caixaImg5 {
+    position: absolute; top: 2300px; left: 700px;
+    width: relative;
+    vertical-align: middle;}
+
+.sobreposicao5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 2s ease;
+    background-color: #F29EAA;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 50px;}
+
+.texto5 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: middle;
+    display: inline-block;
+text-align: center;
+font-family: 'Balivia';}
+
+.caixaImg5:hover .sobreposicao5 {opacity: 2;}
+.caixaImg5:hover .sobreposicao5 {opacity: 2;}
+
+/*refri*/
+
+.caixaImg6 {
+    position: absolute; top: 2815px; left: 700px;
+    width: relative;
+    vertical-align: middle;}
+
+.refri {
+    display: relative;
+    width: relative;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 50px;}
+
+    .sobreposicao6 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: 2s ease;
+        background-color: #F29EAA;
+        width: 270px;
+        margin-top: 20px;
+        margin-left: 50px;}
+    
+    .texto6 {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: middle;
+        display: inline-block;
+    text-align: center;
+    font-family: 'Balivia';}
+    
+    .caixaImg6:hover .sobreposicao6 {opacity: 2;}
+    .caixaImg6:hover .sobreposicao6 {opacity: 2;}
+
+    /*imagem7*/
+
+
+ .caixaImg7 {
+    position: absolute; top: 350px; left: 700px;
+    width: relative;
+    vertical-align: middle;}
+
+.sobreposicao7 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 2s ease;
+    background-color: #F29EAA;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 50px;}
+
+.texto7 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: middle;
+    display: inline-block;
+text-align: center;
+font-family: 'Balivia';}
+
+.caixaImg7:hover .sobreposicao7 {opacity: 2;}
+.caixaImg7:hover .sobreposicao7 {opacity: 2;}
+
+  /*imagem8*/
+
+
+  .caixaImg8 {
+    position: absolute; top: 860px; left: 700px;
+    width: relative;
+    vertical-align: middle;}
+
+.sobreposicao8 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 2s ease;
+    background-color: #F29EAA;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 50px;}
+
+.texto8 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: middle;
+    display: inline-block;
+text-align: center;
+font-family: 'Balivia';}
+
+.caixaImg8:hover .sobreposicao8 {opacity: 2;}
+.caixaImg8:hover .sobreposicao8 {opacity: 2;}
+
+ /*imagem9*/
+
+
+ .caixaImg9 {
+    position: absolute; top: 1370px; left: 700px;
+    width: relative;
+    vertical-align: middle;}
+
+.sobreposicao9 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 2s ease;
+    background-color: #F29EAA;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 50px;}
+
+.texto9 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: middle;
+    display: inline-block;
+text-align: center;
+font-family: 'Balivia';}
+
+.caixaImg9:hover .sobreposicao9 {opacity: 2;}
+.caixaImg9:hover .sobreposicao9 {opacity: 2;}
+
+/*imagem10*/
+
+.caixaImg10 {
+    position: relative; left: 400px; top: 05px;
+    width: relative;
+    vertical-align: middle;}
+  
+
+.sobreposicao10 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 2s ease;
+    background-color: #F29EAA;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 50px;}
+
+    
+.texto10 {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: middle;
+        display: inline-block;
+    text-align: center;
+font-family: 'Balivia';}
+        
+ .caixaImg10:hover .sobreposicao10 {opacity: 2;}
+ .caixaImg10:hover .sobreposicao10{opacity: 2;}
+
+ /*imagem11*/
+
+.caixaImg11 {
+    position: relative; left: 400px; top: -10px;
+    width: relative;
+    vertical-align: middle;}
+  
+
+.sobreposicao11 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 2s ease;
+    background-color: #F29EAA;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 50px;}
+
+    
+.texto11 {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: middle;
+        display: inline-block;
+    text-align: center;
+font-family: 'Balivia';}
+        
+ .caixaImg11:hover .sobreposicao11 {opacity: 2;}
+ .caixaImg11:hover .sobreposicao11{opacity: 2;}
